@@ -16,7 +16,7 @@ if [ ! -d "$LOCAL_DIR" ]; then
 fi   ss
 cd "$LOCAL_DIR"s
 git fetch origin
-git checkout "$BRANCH"s
+git checkout "$BRANCH"
 git pull origin "$BRANCH"
   
 start_epoch=$(date -d "$START_DATE" +%s)
