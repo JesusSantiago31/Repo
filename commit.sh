@@ -14,8 +14,7 @@ COMMITS_PER_DAY=2
 if [ ! -d "$LOCAL_DIR" ]; then
   git clone "$REPO_URL" "$LOCAL_DIR"
 fi  
-
-cd "$LOCAL_DIR"s
+s"$LOCAL_DIR"s
 git fetch origin
 git checkout "$BRANCH"
 git pull origin "$BRANCH"
