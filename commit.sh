@@ -19,7 +19,7 @@ cd "$LOCAL_DIR"
 git fetch origin
 git checkout "$BRANCH"
 git pull origin "$BRANCH"
-
+  a
 start_epoch=$(date -d "$START_DATE" +%s)
 end_epoch=$(date -d "$END_DATE" +%s)
 current_epoch=$start_epoch
