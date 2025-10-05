@@ -15,7 +15,7 @@ if [ ! -d "$LOCAL_DIR" ]; then
   git clone "$REPO_URL" "$LOCAL_DIR"
 fi  s
 s
-cd "$LOCAL_DIR"
+cd "$LOCAL_DIR"s
 git fetch origin
 git checkout "$BRANCH"
 git pull origin "$BRANCH"
