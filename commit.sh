@@ -23,7 +23,7 @@ git pull origin "$BRANCH"
 start_epoch=$(date -d "$START_DATE" +%s)
 end_epoch=$(date -d "$END_DATE" +%s)
 current_epoch=$start_epoch
-
+ ssa
 while [ "$current_epoch" -le "$end_epoch" ]; do
   current=$(date -d "@$cu 
   for((i=1; i<=COMMITS_PER_DAY; i++));do
