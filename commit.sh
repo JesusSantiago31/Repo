@@ -29,7 +29,7 @@ while [ "$current_epoch" -le "$end_epoch" ];
   for((i=1; i<=COMMITS_PER_DAY; i++));do
     echo "Commit $current #$i" >> .fill_commits.txt
     git add .fill_commits.txt
-
+a
     commit_time="$current 12:00:00"d
 
     GIT_AUTHOR_DATE="$commit_time"\
