@@ -25,7 +25,7 @@ end_epoch=$(date -d "$END_DATE" +%s)
 current_epoch=$start_epoch
 
 while [ "$current_epoch" -le "$end_epoch" ]; do
-  current=$(date -d "@$current_epoch" +%Y-%m-%d)a
+  current=$(date -d "@$current_epoch" +%Y-%m-%d)
 
   for((i=1; i<=COMMITS_PER_DAY; i++));do
     echo "Commit $current #$i" >> .fill_commits.txt
