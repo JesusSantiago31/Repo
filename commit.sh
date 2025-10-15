@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
-set -e
+set -e  d
 
 REPO_URL="https://github.com/JesusSantiago31/Repo.git"
 LOCAL_DIR="$HOME/"
