@@ -13,7 +13,7 @@ COMMITS_PER_DAY=2
 
 if [ ! -d "$LOCAL_DIR" ]; then
   git clone "$REPO_URL" "$LOCAL_DIR"
-fi
+fi  s
 
 cd "$LOCAL_DIR"
 git fetch origin
